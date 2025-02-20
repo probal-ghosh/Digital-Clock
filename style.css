@@ -1,0 +1,26 @@
+body{
+    background-image: url(back3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: algerian;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(199, 185, 28);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    
+}
